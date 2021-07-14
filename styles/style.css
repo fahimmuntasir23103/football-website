@@ -244,3 +244,30 @@
 
      
 }
+
+
+/*--------------------------
+        Media queries
+----------------------------*/
+
+/*---------------------------
+       For Tablet device
+----------------------------*/
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+    .live-section{
+        width: 100%;
+    }
+    .container{
+        width: 80%;
+    }
+    .left-half h1{
+        font-size: 47px;
+    }
+    .article-container {
+        width: 1050px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-top: 43px;
+    }
+}
